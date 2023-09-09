@@ -7,6 +7,7 @@ if not GUI or not functions:
 # 获取当前脚本所在的文件夹的绝对路径
 current_folder = os.path.dirname(os.path.abspath(__file__))
 """
+如果GUI失效，就用这个，自己调整一下引用
 # # Path to the input image, the picture is fromhttps://pixabay.com/zh/vectors/logo-template-heart-red-decor-5413944/
 # input_image_path = "example.png"
 # output_image_path = "output.png"
